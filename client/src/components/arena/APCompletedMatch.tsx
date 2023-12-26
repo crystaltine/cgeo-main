@@ -6,7 +6,7 @@ const APCompletedMatch = (props: IArenaMatchResult) => {
 
   return (
     <div className='ap-completed-match'>
-      
+      temp: {props.gameID}
     </div>
   );
 };

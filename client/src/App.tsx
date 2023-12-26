@@ -124,7 +124,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/contest" element={<ContestPage gameInfo={devCPC} currentBotOverview={tempBotOverview} />} />
-      <Route path="/arena" element={<ArenaPage botOverview={tempBotOverview} currentMatches={tempArenaMatchPreview} />} />
+      <Route path="/arena" element={<ArenaPage botOverview={tempBotOverview} currentMatches={tempArenaMatchPreview} history={tempArenaMatchHistory} />} />
     </Routes>
   )
 }

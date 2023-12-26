@@ -3,11 +3,12 @@ import '../styles/arena/ArenaPage.css';
 import APMatchPane from '../components/arena/APMatchPane';
 import APBotPane from '../components/arena/APBotPane';
 import APGamePane from '../components/arena/APGamePane';
-import { IBotOverview, IArenaMatchPreview } from '../types';
+import { IBotOverview, IArenaMatchPreview, IArenaMatchResult } from '../types';
 
 interface IArenaPageProps {
 	botOverview: IBotOverview;
 	currentMatches: IArenaMatchPreview[];
+	history: IArenaMatchResult[];
 }
 
 const ArenaPage = (props: IArenaPageProps) => { 
@@ -16,7 +17,7 @@ const ArenaPage = (props: IArenaPageProps) => {
     <GenericPage>
 			<div className='arena-page'>
 				<APGamePane />
-				<APMatchPane currentMatches={props.currentMatches} />
+				<APMatchPane currentMatches={props.currentMatches} history={props.history} />
 				<APBotPane botData={props.botOverview} />
 			</div>
     </GenericPage>      
