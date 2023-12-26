@@ -1,0 +1,37 @@
+.cp-rule-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 5px 0;
+}
+
+.cp-rule-left {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.cp-rule-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cp-rule-icon-img {
+  height: 18px;
+}
+.cp-rule-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.cp-rule-desc {
+  font-size: 12px;
+  margin: 0;
+  color: #fffa;
+} 
+.cp-rule-value {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 10px;
+}

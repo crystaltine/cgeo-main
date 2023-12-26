@@ -1,0 +1,26 @@
+[
+  {
+    "position": 1,
+    "botIcon": "https://th.bing.com/th/id/OIP.O2Y6ld0DoqU08VqMWxFYiAAAAA?rs=1&pid=ImgDetMain",
+    "botName": "dumbfish",
+    "botElo": 3657,
+    "botWDL": [96, 4, 0],
+    "botLastUpdated": 1703056881243
+  },
+  {
+    "position": 2,
+    "botIcon": "https://placehold.co/200x200",
+    "botName": "brokeman",
+    "botElo": 3422,
+    "botWDL": [92, 7, 1],
+    "botLastUpdated": 1703010294298
+  },
+  {
+    "position": 3,
+    "botIcon": "https://placehold.co/16x16",
+    "botName": "Random",
+    "botElo": 3168,
+    "botWDL": [90, 8, 2],
+    "botLastUpdated": 1702966881298
+  }
+]

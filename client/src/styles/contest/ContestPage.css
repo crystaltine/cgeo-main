@@ -1,0 +1,77 @@
+.cp-main {
+  padding: 120px 100px;
+  max-width: 1600px;
+  margin: auto;
+}
+.cp-section-container {
+  display: flex;
+  gap: 40px;
+}
+.cp-header {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+.cp-subheader {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 30px 0;
+}
+
+.cp-left-section {
+  width: 80%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cp-right-section {
+  width: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.cp-getstarted-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.cp-explainervideo-panel {
+  display: flex;
+  gap: 20px;
+}
+.cpev-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  width: 50%;
+}
+.cpev-title {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+}
+.cpev-author {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+.cpev-date {
+  font-size: 14px;
+  font-weight: 400;
+}
+.cp-hr-colorer hr {
+  opacity: 0.2;
+}
+
+.cp-lb-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}

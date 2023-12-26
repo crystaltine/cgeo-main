@@ -1,0 +1,16 @@
+.ap-ongoing-match-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ap-ongoing-match-info {
+    margin: 5px 0;
+}
+.ap-ongoing-match-oppname {
+    font-size: 16px;
+    font-weight: 600;
+}
+.ap-ongoing-match-oppelo {
+    font-size: 14px;
+    font-weight: 400;
+}

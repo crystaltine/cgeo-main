@@ -1,0 +1,52 @@
+.bprof-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.bprof-profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.bprof-icon {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.bprof-name {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.bprof-elo {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.bprof-timestamp {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fffa;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+}
+.bprof-wdl {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  gap: 5px;
+  margin: 0;
+}
+.bprof-w {
+  color: rgb(101, 255, 101);
+}
+.bprof-d {
+  color: #fffa;
+}
+.bprof-l {
+  color: rgb(255, 74, 101);
+}

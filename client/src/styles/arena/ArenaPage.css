@@ -1,0 +1,13 @@
+.arena-page {
+    display: flex;
+    padding: var(--scaled50px) var(--scaled30px);
+    box-sizing: border-box;
+    min-height: 100%;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+    .arena-page {
+        flex-wrap: wrap;
+    }
+}

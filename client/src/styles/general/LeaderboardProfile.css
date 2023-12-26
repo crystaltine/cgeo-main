@@ -1,0 +1,83 @@
+.lprof-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  gap: 15px;
+  padding: 10px 15px;
+  margin: 0 -10px;
+}
+
+.lprof-line {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.lprof-position {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding-right: 15px;
+  height: 100%;
+  border-right: 1px solid #fff8;
+}
+
+.lprof-profile {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.lprof-icon {
+  display: flex;
+  align-items: center;
+  height: 28px;
+}
+.lprof-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.lprof-elo {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.lprof-timestamp {
+  font-size: 10px;
+  font-weight: 500;
+  color: #fffa;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+}
+.lprof-wdl {
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  gap: 5px;
+  margin: 0;
+}
+.lprof-w {
+  color: rgb(101, 255, 101);
+}
+.lprof-d {
+  color: #fffa;
+}
+.lprof-l {
+  color: rgb(255, 74, 101);
+}
+
+.lprof-gold {
+  background-image: linear-gradient(to right, #ffd70040, #ffd70010);
+}
+.lprof-silver {
+  background-image: linear-gradient(to right, #a5b3bd40, #a5b3bd10);
+}
+.lprof-bronze {
+  background-image: linear-gradient(to right, #a8781f40, #a8781f10);
+}
